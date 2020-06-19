@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Universal wrapper for sodium-javascript and sodium-native working in Node.js and the Browser",
   "main": "index.js",
+  "browser": "browser.js",
   "browserify": {
     "transfrom": ["./transform.js"]
   },
